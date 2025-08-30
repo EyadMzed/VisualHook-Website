@@ -697,6 +697,9 @@ body {
 \*-----------------------------------*/
 
 @media (min-width: 768px) {
+  .hero-banner {
+    display: none;
+  }
   .pricing-list {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
